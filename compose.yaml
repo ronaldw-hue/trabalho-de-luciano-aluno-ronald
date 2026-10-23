@@ -1,0 +1,5 @@
+services:
+  guia-turistico:
+    build: .
+    ports:
+      - "8080:80"
